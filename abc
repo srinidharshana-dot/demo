@@ -1,0 +1,5 @@
+a.accept();
+		WebElement rc=d.findElement(By.xpath("//*[@id=\"authentication\"]/span"));
+		Thread.sleep(4000);
+		act.contextClick(rc).perform();
+		
